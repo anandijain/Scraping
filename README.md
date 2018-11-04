@@ -12,4 +12,3 @@ There are two bugs that I know of:
   Run the script out of convienience if you like.
   Then edit the bandcamp_grab file to make a call to the bandcamp site that you want.
   
-  
