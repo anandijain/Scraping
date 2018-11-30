@@ -9,7 +9,6 @@ root_url = "https://www.basketball-reference.com"
 """
 TODO:
 attendence append/grab
-token vectorization
 """
 
 
