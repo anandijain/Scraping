@@ -4,7 +4,7 @@ import bs4
 from urllib.request import urlopen as u_req
 from bs4 import BeautifulSoup
 
-save_path = r'C:\Users\Anand\Programming\scraping'
+save_path = # YOUR PATH HERE
 
 
 def open_page(url):
