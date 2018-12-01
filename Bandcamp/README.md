@@ -1,4 +1,4 @@
-# Scraping
+# Bandcamp Grab
 
 I wrote a program using BeautifulSoup and Python that will parse an artists bandcamp and retrieve
 all of the song lengths, titles, and the 'about track' and 'track credits tab'
