@@ -8,11 +8,11 @@ from bs4 import BeautifulSoup
 import requests
 import time
 from random import shuffle
-save_path = r'C:\Users\Anand\Programming\seeking_alpha'
+save_path = # YOUR PATH
 # headers = {'User-Agent': 'Mozilla/5.0'}
 # ua = UserAgent() # From here we generate a random user agent
 # proxies = [] # Will contain proxies [ip, port]
-
+# partial credit to : https://codereview.stackexchange.com/questions/195842/web-scraping-through-a-rotating-proxy-script
 
 def get_proxies(link):
     response = requests.get(link)
