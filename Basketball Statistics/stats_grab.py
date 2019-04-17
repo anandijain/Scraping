@@ -131,7 +131,7 @@ def stats_grab_caller(url, file_name):
 
 
 # stats_grab("https://www.basketball-reference.com/play-index/tgl_finder.cgi?request=1&match=game&lg_id=NBA&is_playoffs=N&team_seed_cmp=eq&opp_seed_cmp=eq&year_min=2018&year_max=2018&is_range=N&game_num_type=team&game_location=H&order_by=date_game&order_by_asc=Y", "2018statsgrab2")
-# stats_grab_caller("https://www.basketball-reference.com/play-index/tgl_finder.cgi?request=1&match=game&lg_id=NBA&is_playoffs=N&team_seed_cmp=eq&opp_seed_cmp=eq&year_min=2015&year_max=2019&is_range=N&game_num_type=team&game_location=H&order_by=date_game", "all_stats_and_count5")
+stats_grab_caller("https://www.basketball-reference.com/play-index/tgl_finder.cgi?request=1&match=game&lg_id=NBA&is_playoffs=N&team_seed_cmp=eq&opp_seed_cmp=eq&year_min=2015&year_max=2019&is_range=N&game_num_type=team&game_location=H&order_by=date_game", "all_stats_and_count5")
 
 
 # stats_grab_caller("https://www.basketball-reference.com/play-index/tgl_finder.cgi?request=1&match=game&lg_id=NBA&is_playoffs=N&team_seed_cmp=eq&opp_seed_cmp=eq&year_min=2019&year_max=2019&is_range=N&game_num_type=team&game_location=H&order_by=date_game", "2018_all_stats_grab")

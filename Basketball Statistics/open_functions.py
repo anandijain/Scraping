@@ -1,16 +1,15 @@
 import os.path
 import bs4
 
-from urllib.request import urlopen as u_req
+import requests as r
 from bs4 import BeautifulSoup
 
-save_path = # YOUR PATH HERE
+save_path = '.'
 
 
 def open_page(url):
-    u_client = u_req(url)
-    page_html = u_client.read()
-    u_client.close()
+    site = r.get(url)
+    page_html = site.content
     page = BeautifulSoup(page_html, "html.parser")
     return page
 
